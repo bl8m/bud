@@ -1,0 +1,27 @@
+{
+    "name": "bloomdesign/bud",
+    "description": "Basic CMS for websites building",
+    "type": "project",
+    "require": {
+        "laravelcollective/html": "5.1.*",
+        "orchestra/imagine" : "~3.0",
+        "terbium/db-config": "^2.0",
+        "edvinaskrucas/notification": "5.*",
+        "torann/laravel-meta-tags": "^3.0",
+        "laravel/socialite": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massimiliano Brunazzi",
+            "email": "m.brunazzi@bloomdesign.it"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/App/Models",
+            "src/App/Traits"
+        ]
+    },
+    "minimum-stability": "dev"
+}
